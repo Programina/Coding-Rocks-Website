@@ -1,0 +1,73 @@
+body {
+
+	background:url('img1.png') no-repeat;
+	background-size:cover;
+	overflow: scroll;
+
+}
+
+a{ color: white;
+   font-family: Verdana, sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+#svg1 {
+	
+	height:50%;
+	float: center;
+	animation: jenkins 1s 1; /* name keyframe, duration, repetition*/
+	top: 50vh; 
+	left: 50%;
+	position: absolute;
+}
+
+/*Button*/
+
+.button1 {
+	text-align: center;
+	height: 30px;
+	width:150px;
+	color: white;
+	border: 2px solid white;
+	padding: 2px;
+				}
+
+/*Animation*/
+.slide {
+			 animation-name: slideInDown;
+			 animation-duration:2s;
+				}
+
+.flashy{
+			 animation-name: flash;
+			 animation-delay: 2.5s;
+			 animation-duration:0.5s;
+			 visibility: hidden;
+				}
+				
+.part1 {
+				animation-name: wobble;
+				animation-delay: 3.5s;
+				animation-duration: 2s;
+			 }
+
+.part2 {
+	
+	animation-name: wobble;
+	animation-delay: 6s;
+				}
+
+
+/*Container*/
+
+.container {
+
+	float: right;
+	position: relative;
+	left: -20%; /* or right 50% */
+	padding-top: 4%;
+	padding-left:45%;
+	padding-bottom: 4%;
+	margin: auto;
+}

@@ -1,0 +1,13 @@
+@keyframes jenkins {
+	0% { position: absolute;
+		 top: -10vh; 
+		 left: 50%;}
+	100% { position: absolute;
+		   top: 50vh; 
+		   left: 50%; }
+}
+
+@keyframes pt1-animation {
+	
+	
+}
