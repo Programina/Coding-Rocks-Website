@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!--META DATA-->
+
+	<head>	
+		<title>Coding Lab</title>
+		
+		<meta charset="utf-8"> <!--Vergesse ich gern, ISO 8859 ist eine variante, die aber wohl das Euro-Zeichen auslässt... muss Olga/Michael nochmal wegen Möp fragen-->
+		
+		<meta name="viewport" content="width=device-width" href="CSS/oldstyle_1.css"/>	<!--viewport is relevant for responsive websites - to set the width of the website --- essenziell devicewidth-->
+							
+		<meta name="description" content="A comprehensive collection of all relevant data regarding coding and programming in Java, initially intended for private use of this webpage's author." href="CSS/oldstyle_1.css"/><!--SEO relevant-->
+		
+		<meta name="keywords" content="java, javascript, css, html, information technology, IT, learning, learn, coding, programming, programmable, website, web development, internet, computer science, IDE, API, Germany, German, technology, women in tech"/>	
+		
+		<meta name="author" content="Amina Belabbes"/>	
+											
+		<link rel="stylesheet" type="text/css" href="CSS/londongrammar_css.css"/>
+							
+	</head>
+	
+<!--VISIBLE-->
+	<body>
+		<header>		
+<!--LOGO-->
+				<div class="container">
+					<div id="branding">
+						<h1>
+							<span style="color:#1aadce">
+							Coding
+							</span><!-- span ist inline, im gegensatz zu div, hätte ich div verwendet, wäre Coding jetzt in einer neuen Zeile -->
+							Lab
+						</h1>
+					</div>			
+<!--NAVIGATION BAR - on the right-->						
+					<nav>
+						<ul>
+							<li class="current">
+								<a href="">
+									<img src="./img/home.png" height="35px" width="35px" alt="Home" title="Home"/ >
+								</a>
+							</li>		
+							<li>
+								<a href="">
+									<img src="./img/user.png" height="35px" width="35px" alt="User" title="Your Account"/>
+								</a>
+							</li>		
+							<li>
+								<a href="">
+									<img src="./img/coding.png" height="35px" width="35px" alt="Code" title="Code"/>
+								</a>
+							</li>	
+							<li>
+								<form class="searchbar">
+									<a href="" class="button" id="searchbut">
+										<img src="./img/magnifier-tool.png" height="18px" width="18px" alt="Search" title="Search dictionary"/>
+									</a>
+										<input type="text" placeholder="Search..." required height="40px">
+								</form>
+							</li>
+						</ul>
+					</nav>
+				</div>	
+			</header>
+		<!--<article>
+			<section>
+			<div><h2><a href="sololearnbasics.html">Basics in Sololearn</a>
+			</h1></div></section>
+			<section>
+			<h2><a href="sololearnbasics.html">Basics aus dem Java-Lehrbuch</a>
+			</h2>
+			</section>
+		</article>-->
+		<section id="showcase">
+			<div class="container">
+				<div id="showcaseblock">
+					<h2>
+						Here you can enter your Code Snippets
+					</h2>
+							<p>
+								/COMPILER/
+							</p>
+				</div>
+			</div>
+		</section>		
+
+		<section id="boxes">	
+	
+<!--Term Database-->		
+			<div class="container">	
+
+<!--BOX BELOW BACKGROUND IMAGE-->
+				<div class="sandbox">	
+					<h3>About</h3>
+						<p>
+							Tutorials, Terminology and Techniques for Java and more
+						</p>
+						<p>
+							Create a user account and track your progress by counting how many times you have done an exercise and having it displayed in a progress bar.
+						</p>
+				</div>	
+				<div id="dictionary">
+						<form>
+							<a href="" class=" " id=" ">
+								<img src="./img/magnifier.png" height="15px" width="15px" alt="Search" title="Search dictionary"/>
+							</a>
+							<input type="text" placeholder="Search..." required>
+						</form>
+					<p>
+						<h3>
+							This is your IT terminology database
+						</h3>
+					</p>
+						
+					<p>
+						<ul>
+							<li>
+								<form action="http://localhost:81/termadded.php" method="post">
+									
+									<input name="dbinput_term" size="50" class="searchbarwidth" type="text" placeholder="Insert term here" value="" required />
+						
+									<input name="dbinput_termdescr" class="searchbarwidth" type="text" size="250" placeholder="Insert description here" value="" />
+									
+									<input type="submit" name="submit" value="Send"/>
+								</form>
+							</li>	
+						</ul>
+					</p>
+					<p>&nbsp;</p>
+					<p>
+						<h3>
+							Term
+						</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+								</p>
+						<h3>
+							Term
+						</h3>
+								<p>
+									Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+								</p>
+					</p>
+				</div>
+			</div>
+		</section>	
+			
+
+
+<!--FOOTER-->
+		<div class="container">
+			<footer>
+				<nav>
+					<ul>
+						<li>
+							<a href="">
+								FAQ
+							</a>
+						</li>
+						<li>
+							<a href="">
+								Help
+							</a>
+						</li>
+						<li>
+							<a href="">
+								About
+							</a>
+						</li>
+						<li>
+							<a href="">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="smaller">
+					<em>
+						Copyright &#9400; Amina Belabbes, 2017
+					</em>
+				</div>
+			</footer>
+		</div>
+		
+	</body>
+</html>

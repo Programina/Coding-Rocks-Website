@@ -1,0 +1,253 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/*GLOBAL*/
+
+html{
+	overflow:scroll;}
+
+body, html{   
+		background-color:#212121;
+		width:100%;
+		height:100%;
+		margin:0;}
+
+body{   
+		font:17px/1.5 "Brandon Grotesque", Arial, sans-serif; 
+			/*entspricht: font-family: Arial etc.; font-size:15px; line-height:1.5;*/
+		padding:0; 
+			/*padding=Innenabstand (padding, englisch: Polsterung) ist ein erzwungener Leerraum zwischen dem Inhalt eines Elements und seinem eigenen Elementrand, also z.B. zwischen dem Text eines Elements und dem Rand dieses Elements. */
+
+		color:#fff;}
+		
+		
+ul     { 		
+						/*To get the ul to display horizontally. By default unordered lists have padding, so set that 	and the margin to 0*/
+		padding-top:0;
+		margin:0;}		
+		
+		
+ a:active,  a:hover, a:link,  a:visited{ 	
+		color:#ffffff;
+	    text-decoration:none;}
+		
+
+		/*HEADER*/
+	
+		header #branding {
+				float: left;
+				text-indent:40px;}
+			   
+		header #branding h1{
+				margin: 0;
+				text-shadow: 2px 2px #000000;
+				margin-top: 2%;
+				margin-bottom: 10%;
+				font-size:250%; }
+			   
+			   
+			   /*text shadow 1. – the X-coordinate*/
+				/*2. – the Y-coordinate*/
+				/*3. – the blur radius*/
+				/*4. – the color of the shadow*/
+
+		header {
+				background:#707275;
+				overflow:hidden;
+				padding-top:3%;
+				height:100px;
+				/*min-height:40px;*/ 
+				/*max-height:100px;*/
+				border-bottom:#1aadce 3px solid; /*style is solid*/
+					/*height needs to adjust when seize of page reduced - height needs to adjust when menu goes on next line*/}
+				
+		header nav{
+			
+				float: right;
+				margin-top: 2%;
+				margin-bottom: 5%;
+				margin-right:10px;}
+
+		header a{
+				 color:#ffffff;
+				 text-decoration: none;
+				 text-transform: uppercase;
+				 font-size:0.9em;}
+				
+		header a:active{ 	
+				color:#ffffff;
+				text-decoration:none;}
+				
+		header a:hover{ 	
+				color:#87b7c1;
+				text-decoration:none;}
+
+		header a:link{ 	
+				color:#87b7c1;
+				text-decoration:none;}
+				
+		header a:visited{ 	
+				color:#ffffff;
+				text-decoration:none;}
+				
+				
+		header li{ 
+					/*To get the ul to display horizontally. By default unordered lists have padding, so set that and the margin to 0*/
+				 float:left; /*elemente werden links innerhalb des margins angezeigt, responsive*/
+				 display:inline; /*horizontale anzeige von listen*/
+				 padding: 0px 30px 0px 10px;/*padding statt jedes einzeln einmal für alle - top, right, bottom, left*/}
+				
+
+		/*.searchbar input {
+					height:35px; 
+					width: 160px;}*/
+		
+	
+/*CONTAINERS*/		
+		
+		
+		.container {
+			  width: 100%; /*responsive - relative size, ähnlich wie text wrap*/
+			  margin: 0; /*bewegt es in die Mitte*/
+			  overflow: hidden; /*wenn etwas außerhalb des Divs liegt, soll da keine Scroll bar erscheinen*/}
+			
+		
+				
+		.container:after { 
+			  clear: both;
+			  display: block;
+			  content: " ";}
+				
+/*SHOWCASE*/
+		.container #showcaseblock {
+			  margin-top:6%;}
+			
+		#showcase {
+			  min-height:350px;
+			  max-height:550px;
+			  background:url('../img/showcase.jpg') no-repeat, 0, -400px;
+			  background-size: 100%; 	/* height: 150%, width: auto to retain aspect ratio */
+											/*0 hier x-achse, y achse*/
+			  text-align:center;
+			  color:#ffffff;
+			  overflow:hidden;}
+
+		#showcase h1{
+			  margin-top:100px;
+			  font-size:55px;
+			  margin-bottom:10px;}
+
+		#showcase p{
+			  font-size:20px;}
+
+
+/*MIDDLE-SECTION*/
+		
+		
+
+/*BOXES*/
+
+		#boxes {
+			margin-top:5px;
+			width: 100%;}
+
+		#boxes .box {
+			float:left;
+			width:20%;
+			padding-right:10px;
+			padding-left:50px;
+			margin: 5px; 
+			text-align:center;}
+			
+		#boxes .sandbox {
+			float:center;
+			width:20%;
+			padding-right:10px;
+			padding-left:20px;
+			margin: 5px;
+			text-align:center;
+			overflow: hidden;
+			color: yellow;}
+		
+/*DICTIONARY*/
+
+#dictionary h3 {
+			color:#214e66; 
+			text-align: left;
+			font-size:12pt;}
+
+#dictionary ul li {
+		float:left; 
+		display:inline;}
+
+#dictionary ul {
+		text-align:left;}
+
+#boxes #dictionary{
+	float:right;
+	width:20%;
+	padding:5px;
+	text-align:left;
+	background-color: white;
+	height:100%;}
+
+
+#boxes #dictionary p{
+	/*margin: 15px;*/
+	color: black;
+	text-align: justified;
+	font-size: smaller;
+	font-weight: light;}
+
+.searchbarwidth{
+	   align: left;
+	   text-align: left;
+		width:60px;}
+		
+		
+		
+		
+	/*	aside {
+			padding: 1px;
+			background-color: white;
+			float:right;
+			height:500px;
+			width:350px;
+			overflow:scroll;
+			}*/
+			
+		/*aside p {
+			margin: 15px;
+			color: black;
+			text-align: justified;
+			color:black; }*/
+			
+		/*aside */
+
+		/*aside { display: none; }*/
+			
+/*FOOTER*/
+									/*Warum eigentlich nicht align?*/
+		.container footer{
+		   float: center; 
+		   text-align: center;
+		   position:absolute;
+		   right: 0;
+		   left: 0;
+		   padding: 1rem;}
+			 
+		.container footer nav{
+			float: center; 
+			margin-top: 2%;
+			margin-bottom: 1%;
+			margin-right:10px;}
+				
+		.container footer li{
+			display:inline; 
+			padding: 0px 30px 0px 5px;}
+		
+		.smaller {
+			font-size: small; 
+			font-weight: light; 
+		}
+		
+
